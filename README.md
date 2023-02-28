@@ -3,6 +3,8 @@ API desenvolvida em Asp Net Core 6 cujo o objetivo é Gerenciar as Tarefas do us
 # Consultas
 **Exemplo de Requisição: /api/Tarefa/BuscarTodas**
 Esse metódo, no controlador, é o responsável por chamar o metódo do Repositório que retorna uma lista do tipo "TarefaModel", com todas as tarefas existentes no banco de dados e retornando-as como um JSON.
+
+
 **Exemplo de Requisição: /api/Tarefa/BuscarPorCodigo/{codigo}**
 Esse metódo recebe por parâmetro um código, onde vai chamar um metódo do Repositório que pede por parâmetro um código do tipo inteiro e vai buscar no banco de dados uma tarefa que possua aquele código, retornando um objeto do tipo "TarefaModel".
 
