@@ -9,7 +9,7 @@ Este end-point retorna um JSON com todas as tarefas cadastradas.
 
 **Requisição GET: /api/Tarefa/BuscarPorCodigo/{codigo}**
 
-Este end-point recebe por parâmetro o código de tarefa que o usuário quer ter acesso às informações.
+Este end-point recebe por parâmetro o código de tarefa que o usuário quer ter acesso às informações e retorna estas informações em JSON.
 
 # Inclusão
 **Requisição POST: /api/Tarefa/Criar**
