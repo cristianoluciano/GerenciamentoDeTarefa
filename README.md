@@ -1,5 +1,5 @@
 # Tarefas
-API desenvolvida em Asp Net Core 6 cujo o objetivo é Gerenciar as Tarefas do usuário, podendo criar, atualizar, excluir, consultar todas ou consultar especificamente uma tarefa.
+API desenvolvida em Asp Net Core 6, cujo o objetivo é Gerenciar as Tarefas do usuário, podendo criar, atualizar, excluir e consultar todas ou consultar especificamente uma tarefa.
 # Consultas
 **Exemplo de Requisição: /api/Tarefa/BuscarTodas**
 Esse metódo, no controlador, é o responsável por chamar o metódo do Repositório que retorna uma lista do tipo "TarefaModel", com todas as tarefas existentes no banco de dados e retornando-as como um JSON.
