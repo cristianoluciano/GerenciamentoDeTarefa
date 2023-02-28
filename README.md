@@ -14,7 +14,7 @@ Este end-point recebe por parâmetro o código de tarefa que o usuário quer ter
 # Inclusão
 **Requisição POST: /api/Tarefa/Criar**
 
-End-point responsável por salvar uma tarefa. Ex de json aceito: 
+End-point responsável por salvar uma tarefa. Ex de JSON aceito: 
 {
   descricao: "Ir jogar futebol"
 }
@@ -22,7 +22,7 @@ End-point responsável por salvar uma tarefa. Ex de json aceito:
 # Alteração
 **Requisição PUT: /api/Tarefa/Editar/{codigo}**
 
-End-point responsável por editar uma tarefa. É necessário o envio do código por parâmetro. Ex de json aceito: 
+End-point responsável por editar uma tarefa. É necessário o envio do código por parâmetro. Ex de JSON aceito: 
 {
   descricao: "Ir ao cinema"
 }
