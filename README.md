@@ -1,5 +1,5 @@
 # Tarefas
-API desenvolvida em Asp Net Core 6.0, cujo o objetivo é gerenciar as tarefas do usuário, podendo criar, atualizar, excluir e consultar todas ou consultar especificamente uma tarefa.
+API desenvolvida em Asp Net Core 6.0, cujo objetivo é gerenciar as tarefas do usuário, podendo criar, atualizar, excluir e consultar todas ou consultar especificamente uma tarefa.
 # Consultas
 **Requisição GET: /api/Tarefa/BuscarTodas**
 
